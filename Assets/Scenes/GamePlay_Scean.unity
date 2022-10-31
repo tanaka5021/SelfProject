@@ -233,6 +233,7 @@ GameObject:
   - component: {fileID: 42738606}
   - component: {fileID: 42738605}
   - component: {fileID: 42738609}
+  - component: {fileID: 42738610}
   m_Layer: 0
   m_Name: Land
   m_TagString: Untagged
@@ -326,13 +327,34 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42738604}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18a76ed6aa21b804aabeb70f876b8ed6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   max_z: 15
   max_x: 15
+--- !u!114 &42738610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42738604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec7b829b2a84fc4faae4a2ce2e69d9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Maps:
+  - {fileID: 3388153971658649309, guid: 29d6518f2759c054aaefd8748c4353f0, type: 3}
+  - {fileID: 4739403927608497682, guid: e9b0e508f2056814084df015dfad5c28, type: 3}
+  - {fileID: 5684594043351768765, guid: d69fc7ee1d210874998328b94b1c8434, type: 3}
+  - {fileID: 6796759097838305616, guid: 6a4583198c54c5e4da8975208dc97baa, type: 3}
+  - {fileID: 1322237115492564325, guid: 774d6ab4e4bd43242b67c9e8279f9d5c, type: 3}
+  - {fileID: 620918588073394917, guid: bee51a89d77e9894f9595884e10d306f, type: 3}
+  Map_UnderPosi: {fileID: 0}
+  Map_UpperPosi: {fileID: 0}
 --- !u!1 &321589962
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartButton : MonoBehaviour
+public class GotoTitleButton : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -17,9 +17,8 @@ public class StartButton : MonoBehaviour
 
     }
 
-    public void ClickStartButton_Title()
+    public void ClickGotoTitleButton()
     {
-        SceneManager.LoadScene("GameOverScene");
-        //SceneManager.LoadScene("GamePlay_Scene");
+        SceneManager.LoadScene("TitleScene");
     }
 }

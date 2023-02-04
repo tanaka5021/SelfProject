@@ -19,7 +19,8 @@ public class StartButton : MonoBehaviour
 
     public void ClickStartButton_Title()
     {
-        SceneManager.LoadScene("GameOverScene");
+        SceneManager.LoadScene("GameOver" +
+            "Scene");
         //SceneManager.LoadScene("GamePlay_Scene");
     }
 }

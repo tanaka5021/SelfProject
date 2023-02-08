@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SecondCamera : MonoBehaviour
-{
+{/*
     [SerializeField]
     private GameObject PlayerObject;
 
@@ -23,4 +23,5 @@ public class SecondCamera : MonoBehaviour
         camerasTransform.z = PlayerObject.transform.position.x;
 
     }
+    */
 }
